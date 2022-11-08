@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.container {
+    max-width: 1000px;
+    height: 100vh;
+    flex: 1;
+}
+
+.container .box {
+    max-width: 3em;
+    height: 2em;
+    background-color: rgb(189, 39, 39);
+    flex: 1;
+}
