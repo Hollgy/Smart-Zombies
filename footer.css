@@ -5,6 +5,8 @@
 footer {
     background-color: #142359;
     color: white;
+    width: 100vw;
+    height: 5vh;
 }
 
 li {
@@ -13,4 +15,6 @@ li {
 
 ul {
     display: flex;
+    justify-content: center;
+    gap: 0.5em;
 }
