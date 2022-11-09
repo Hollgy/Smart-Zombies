@@ -6,41 +6,40 @@
 * {
     margin: 0;
     padding: 0;
-    
+
 }
 
-body {
-  
-}
+body {}
 
 header {
     height: 8vh;
     width: 100vw;
     min-width: 15em;
     background-color: #142359;
-   
+
 }
 
 .headerbox {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .logo-bild {
-   margin-top: 0.5em;
-    
+    margin-top: 0.5em;
+
 }
 
-.shop-bag{
-    height: 2.5em;
-    width: 2.5em;
+.shop-bag {
+    height: 2em;
+    width: 2em;
     margin-left: 1em;
 }
+
 .ham-meny {
-    height: 2.5em;
-    width: 2.5em;
+    height: 2em;
+    width: 2em;
     margin-right: 1em;
 }
 
@@ -58,7 +57,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .logo_list li {
