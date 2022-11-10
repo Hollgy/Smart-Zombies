@@ -44,30 +44,61 @@ header {
 }
 
 
-.betalwindow-main {
-    height: 82vh;
-}
+
+
+
+
+
+
 
 .betalwindow-rubrik {
     text-align: center;
     margin-top: 3em;
     font-size: 16px;
-    margin-bottom: 5em;
+    margin-bottom: 1em;
 }
 
-.betalwindow-epost label {
-    position: absolute;
-    top: -1px;
-    left: 25px;
-    background-color: white;
-    padding:5px;
-    color: black;
+.betalwindow-input-field {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.betalwindow-long {
+    grid-column: 1 /span 2;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.betalwindow-long input {
+ height: 2em;
+ border: none;
+}
+
+.betalwindow-short {
+    
+}
+
+.betalwindow-short-left {
+    margin-left: 2vw;
+    grid-column: 1;
+}
+
+.betalwindow-short-right {
+    grid-column: 2;
+    margin-left: 1vw;
+    margin-right: 2vw;
 }
 
 
+.betalwindow-short-right input, .betalwindow-short-left input {
+    border: none;
+    height: 2em;
+    width:5vw;
+}
 
-
-
+.betalwindow-input-field legend {
+    margin-left: 1em;
+}
 
 
 
