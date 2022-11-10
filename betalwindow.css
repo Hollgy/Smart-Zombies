@@ -1,0 +1,70 @@
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {}
+
+header {
+    height: 8vh;
+    width: 100vw;
+    min-width: 15em;
+    background-color: #142359;
+
+}
+
+.headerbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo-bild {
+    margin-top: 0.5em;
+
+}
+
+.shop-bag {
+    height: 2em;
+    width: 2em;
+    margin-left: 1em;
+}
+
+.ham-meny {
+    height: 2em;
+    width: 2em;
+    margin-right: 1em;
+}
+
+
+.main {
+    height: 82vh;
+}
+
+
+footer {
+    background-color: #142359;
+    color: white;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo_list li {
+    list-style: none;
+}
+
+.logo_list {
+    display: flex;
+    gap: 0.5em;
+}
