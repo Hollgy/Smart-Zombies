@@ -101,9 +101,48 @@ header {
     margin-left: 1em;
 }
 
+.betalwindow-betalmetod-rubrik {
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
 
+.betalwindow-betalmetod-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    gap: 2vh;
+}
 
+.betalwindow-betalmetod-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4.5vh;
+    list-style: none;
+    margin-top: 0.5vh;
+}
 
+.betalwindow-betalmetod-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    margin-top: 1vh;
+}
+
+.betalwindow-betalmetod {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+
+.betalwindow-betalningsmetod-knapp
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+}
 
 
 
