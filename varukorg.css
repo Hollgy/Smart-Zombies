@@ -44,8 +44,35 @@ header {
 }
 
 
-.main {
+.varukorg-menu {
     height: 82vh;
+    
+}
+
+.skylt {
+    display: flex;
+    justify-content: center;
+}
+
+.first-product {
+ margin-top: 2em;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+
+.pris-och-knapp {
+    display: flex;
+    gap: 1em;
+    padding: 2em;
+}
+
+.second-product {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 
