@@ -75,7 +75,7 @@ header {
     align-items: center;
 }
 
-hr {
+.varukorg-line {
     width: 60vw;
     margin: auto;
     height: 1px;
