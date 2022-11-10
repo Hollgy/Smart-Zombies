@@ -49,12 +49,12 @@ header {
     
 }
 
-.skylt {
+.varukorg-skylt {
     display: flex;
     justify-content: center;
 }
 
-.first-product {
+.varukorg-first-product {
  margin-top: 2em;
  display: flex;
  flex-direction: row;
@@ -62,13 +62,13 @@ header {
  align-items: center;
 }
 
-.pris-och-knapp {
+.varukorg-pris-och-knapp {
     display: flex;
     gap: 1em;
     padding: 2em;
 }
 
-.second-product {
+.varukorg-second-product {
     display: flex;
     flex-direction: row;
     justify-content: center;
