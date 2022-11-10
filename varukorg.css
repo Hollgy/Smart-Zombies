@@ -107,6 +107,13 @@ header {
     height: 1px;
 }
 
+.varukorg-button-till-betalning {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-bottom: 7vh;
+}
+
 
 footer {
     background-color: #142359;
