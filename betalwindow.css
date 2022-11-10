@@ -44,9 +44,35 @@ header {
 }
 
 
-.main {
+.betalwindow-main {
     height: 82vh;
 }
+
+.betalwindow-rubrik {
+    text-align: center;
+    margin-top: 3em;
+    font-size: 16px;
+    margin-bottom: 5em;
+}
+
+.betalwindow-epost label {
+    position: absolute;
+    top: -1px;
+    left: 25px;
+    background-color: white;
+    padding:5px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 footer {
