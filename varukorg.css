@@ -82,6 +82,16 @@ header {
     background-color: #142359;
 }
 
+.varukorg-summa-lista {
+    margin-left: 20vw;
+    font-size: 12px;
+}
+
+.varukorg-summa-total {
+    font-size: 12px;
+    margin-left: 55vw;
+}
+
 
 footer {
     background-color: #142359;
