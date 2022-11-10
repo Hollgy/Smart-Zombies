@@ -80,16 +80,24 @@ header {
     margin: auto;
     height: 1px;
     background-color: #142359;
+    margin-top: 1em;
 }
 
 .varukorg-summa-lista {
     margin-left: 20vw;
     font-size: 12px;
+    margin-top: 1em;
 }
 
 .varukorg-summa-total {
     font-size: 12px;
     margin-left: 55vw;
+}
+
+.varukorg-code {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
 }
 
 
