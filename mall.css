@@ -9,7 +9,10 @@
 
 }
 
-body {}
+body {
+    overflow-x: hidden;
+    width: 100%; 
+}
 
 header {
     height: 8vh;
@@ -71,6 +74,7 @@ footer {
 
 .container-omoss{
     display: flex;
+    margin: 0;
     flex-direction: column;
     justify-content: center;
     
@@ -78,8 +82,8 @@ footer {
 
 h2{
     text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1px;
+    margin: 0;
+    padding-top: 0.5em;
 }
 .profil-omoss{
     position: relative;
