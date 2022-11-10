@@ -75,6 +75,13 @@ header {
     align-items: center;
 }
 
+hr {
+    width: 60vw;
+    margin: auto;
+    height: 1px;
+    background-color: #142359;
+}
+
 
 footer {
     background-color: #142359;
