@@ -72,6 +72,7 @@ header {
 .betalwindow-long input {
  height: 2em;
  border: none;
+ width: 100%;
 }
 
 .betalwindow-short {
@@ -93,12 +94,15 @@ header {
 .betalwindow-short-right input, .betalwindow-short-left input {
     border: none;
     height: 2em;
-    width:5vw;
+    width:100%;
 }
 
 .betalwindow-input-field legend {
     margin-left: 1em;
 }
+
+
+
 
 
 
