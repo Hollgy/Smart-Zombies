@@ -1,0 +1,109 @@
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {}
+
+header {
+    height: 8vh;
+    width: 100vw;
+    min-width: 15em;
+    background-color: #142359;
+
+}
+
+.headerbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo-bild {
+    margin-top: 0.5em;
+
+}
+
+.shop-bag {
+    height: 2em;
+    width: 2em;
+    margin-left: 1em;
+}
+
+.ham-meny {
+    height: 2em;
+    width: 2em;
+    margin-right: 1em;
+}
+
+
+main {
+    height: 82vh;
+}
+
+
+footer {
+    background-color: #142359;
+    color: white;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo_list li {
+    list-style: none;
+}
+
+.logo_list {
+    display: flex;
+    gap: 0.5em;
+}
+
+.container-confrim{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bild-confirm{
+    margin-top: 6em;
+    margin-bottom: 2em;
+}
+
+.confirm-button{
+    position: relative;
+    top: 8em;
+    background-color: #142359;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 50px ;
+    padding-right: 50px;
+    border-radius: 5px;
+    border-color: #142359;
+    font-size: 16px; 
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.info-confirm{
+    margin-bottom: 1em;
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.info-2{
+    margin-bottom: 0;
+    width: 250px;
+    text-align: center;
+}
