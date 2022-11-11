@@ -1,0 +1,110 @@
+:root {
+    --icon-padding: 2em;
+}
+
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    /* Start på header*/
+
+}
+
+header {
+    height: 8vh;
+    width: 100vw;
+    min-width: 15em;
+    background-color: #142359;
+}
+
+.headerbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-bild {
+    margin-top: 0.5em;
+}
+
+.shop-bag {
+    height: var(--icon-padding);
+    width: var(--icon-padding);
+    margin-left: 1em;
+}
+
+.ham-meny {
+    height: 2em;
+    width: 2em;
+    margin-right: 1em;
+}
+
+/* Start på main */
+
+main {
+    height: 82vh;
+    display: grid;
+    grid-template-columns: 1;
+
+
+}
+
+.imgbox {
+    display: flex;
+    margin-top:6em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prod-botrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: ;
+
+}
+
+.ikoner{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* om dom ska länkas */
+/*.ikoner > .ikon1 {
+}
+.ikoner > .ikon2 {
+}
+.ikoner > .ikon3 {
+} */
+
+
+
+/* Start på footer*/
+
+footer {
+    background-color: #142359;
+    color: white;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_list li {
+    list-style: none;
+}
+
+.logo_list {
+    display: flex;
+    gap: 0.5em;
+}
