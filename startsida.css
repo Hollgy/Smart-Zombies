@@ -11,6 +11,7 @@
 }
 
 body {
+    position: fixed;
     overflow-x: hidden;
     width: 100%; 
   
@@ -42,11 +43,6 @@ header {
     margin-left: 1em;
 }
 
-.ham-meny {
-    height: 2.5em;
-    width: 2.5em;
-    margin-right: 1em;
-}
 
 main {
     height: 82vh;
@@ -77,10 +73,10 @@ footer {
     gap: 0.5em;
 }
 main{
-    /* display: flex;
+    display: flex;
     justify-content: center;
     flex-direction: column;
-     align-items: center  */
+     align-items: center 
 }
 
 
@@ -102,7 +98,7 @@ main{
     width: 15em;
     height: 1em;
     border-radius: 7px;
-    border: solid black;
+    border: solid #142359;
     background-color: #142359;
     margin: 1em;
     padding: 1em;
@@ -129,17 +125,104 @@ main{
     left: 1px;
     bottom: 10px;
     float: left;
-    padding-right: 2em;
+    padding-right: 1em;
     margin-top: 0;
 }
 
 div.health{
     position: relative;
     
+    
 }
-a{
+.länkar-ikoner{
     color: white;
+    position: absolute;
     text-decoration: none;
+
+}
+
+p.stat-info{
+    
+    width: 400px;
+    
 }
 
 /* Här slutar hälsodata */
+
+.hamburger {
+    position: relative ;
+    right: 3em;
+    margin-right: 10px;
+    margin-left: 0;
+    
+}
+
+.hamburger span {
+    position: relative;
+    bottom: 0.3em;
+    left: 3em;
+    height: 3px;
+    width: 30px;
+    background: white;
+    display: block;
+    margin: 5px;
+        
+    
+}
+
+.trigger:checked ~.hamburger span:first-child{
+    transform: rotate(45deg);
+    top: 8px;
+}
+
+
+.trigger:checked ~.hamburger span:last-child{
+    transform: rotate(-45deg);
+    top: -8px;
+}
+
+
+.trigger:checked ~.hamburger span:nth-child(2){
+    opacity: 0;
+}
+
+.trigger{
+    display: none;
+  
+}
+
+.trigger:checked ~ nav{
+    right: 0;
+    transition: right 0.3s ease-in-out;
+
+}
+
+
+nav{
+    background: #142359 ;
+    width: 20vw;
+    height: 50vw;
+    padding: 30px 70px;
+    position:absolute;
+    right: -100vw;
+    top: 4em;
+    transition: right 0.3s ease-in-out;
+}
+
+.ham-ul{
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ham{
+    margin-bottom: 10px;
+}
+
+.meny-a{
+    text-decoration: none;
+     color: white;
+     font-size: 20px;
+     font-family: 'Quicksand', sans-serif;
+}

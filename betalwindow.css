@@ -9,7 +9,10 @@
 
 }
 
-body {}
+body {
+    position: fixed;
+    
+}
 
 header {
     height: 8vh;
@@ -35,12 +38,6 @@ header {
     height: 2em;
     width: 2em;
     margin-left: 1em;
-}
-
-.ham-meny {
-    height: 2em;
-    width: 2em;
-    margin-right: 1em;
 }
 
 
@@ -138,7 +135,7 @@ header {
     display: flex;
     justify-content: center;
     margin-top: 2vh;
-    margin-bottom: 4vh;
+    margin-bottom: 5vh;
 }
 
 
@@ -164,4 +161,82 @@ footer {
 .logo_list {
     display: flex;
     gap: 0.5em;
+}
+
+.hamburger {
+    position: relative ;
+    right: 3em;
+    margin-right: 10px;
+    margin-left: 0;
+    
+}
+
+.hamburger span {
+    position: relative;
+    bottom: 0.3em;
+    left: 3em;
+    height: 3px;
+    width: 30px;
+    background: white;
+    display: block;
+    margin: 5px;
+        
+    
+}
+
+.trigger:checked ~.hamburger span:first-child{
+    transform: rotate(45deg);
+    top: 8px;
+}
+
+
+.trigger:checked ~.hamburger span:last-child{
+    transform: rotate(-45deg);
+    top: -8px;
+}
+
+
+.trigger:checked ~.hamburger span:nth-child(2){
+    opacity: 0;
+}
+
+.trigger{
+    display: none;
+  
+}
+
+.trigger:checked ~ nav{
+    right: 0;
+    transition: right 0.3s ease-in-out;
+
+}
+
+
+nav{
+    background: #142359 ;
+    width: 20vw;
+    height: 50vh;
+    padding: 30px 70px;
+    position:absolute;
+    right: -100vw;
+    top: 4em;
+    transition: right 0.3s ease-in-out;
+}
+
+.ham-ul{
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ham{
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+     color: white;
+     font-size: 20px;
+     font-family: 'Quicksand', sans-serif;
 }
