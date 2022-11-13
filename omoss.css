@@ -41,35 +41,12 @@ header {
     margin-left: 1em;
 }
 
-.ham-meny {
-    height: 2em;
-    width: 2em;
-    margin-right: 1em;
-}
 
 
 main {
-
     height: 82vh;
-    display: grid;
-    grid-template-columns: 1;
-
-
 }
 
-.imgbox {
-    display: flex;
-    margin-top:6em;
-    flex-direction: column;
-    align-items: center;
-}
-
-.prod-botrow {
-    display: flex;
-    flex-direction: row;
-    justify-content: ;
-
-}
 
 .ikoner{
     width: 100%;
@@ -113,12 +90,13 @@ h2{
 }
 .profil-omoss{
     position: relative;
-    left: 2em;
     top: 1em;
     display: flex;
-    align-items: flex-start;
-    text-align: center;
-    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start;
+    width: 245px;
+    inline-size: 250px;
     
 }
 
@@ -221,4 +199,18 @@ a{
      color: white;
      font-size: 20px;
      font-family: 'Quicksand', sans-serif;
+}
+
+
+@media all and (min-width: 600px ) {
+    .profil-omoss{
+        inline-size: 600px;
+        width: 400px;
+    }
+
+    h4{
+   
+        width: 500px;
+    }
+
 }
