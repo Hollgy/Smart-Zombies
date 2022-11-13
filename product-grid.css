@@ -11,13 +11,14 @@
 
 header {
     height: 8vh;
-    width: 100vw;
-    min-width: 15em;
+    width:100%;
     background-color: #142359;
 }
 
 body {
-    position: fixed;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .headerbox {
@@ -34,13 +35,10 @@ body {
     margin-left: 1em;
 }
 
-
 /* avgränsning header */
-
 main {
     width: min(1000px, 100%);
     padding: 3vh 0 3vh 0;
-    height: 82vh;
 }
 
 main .container {
@@ -63,7 +61,6 @@ footer {
     background-color: #142359;
     color: white;
     width: 100%;
-    width: 100vw;
     height: 10vh;
     display: flex;
     align-items: center;
@@ -79,13 +76,11 @@ footer {
     gap: 0.5em;
 }
 
-
 .hamburger {
-    position: relative ;
+    position: relative;
     right: 3em;
     margin-right: 10px;
     margin-left: 0;
-    
 }
 
 .hamburger span {
@@ -97,63 +92,64 @@ footer {
     background: white;
     display: block;
     margin: 5px;
-        
-    
 }
 
-.trigger:checked ~.hamburger span:first-child{
+.trigger:checked~.hamburger span:first-child {
     transform: rotate(45deg);
     top: 8px;
 }
 
-
-.trigger:checked ~.hamburger span:last-child{
+.trigger:checked~.hamburger span:last-child {
     transform: rotate(-45deg);
     top: -8px;
 }
 
-
-.trigger:checked ~.hamburger span:nth-child(2){
+.trigger:checked~.hamburger span:nth-child(2) {
     opacity: 0;
 }
 
-.trigger{
+.trigger {
     display: none;
-  
 }
 
-.trigger:checked ~ nav{
+.trigger:checked~nav {
     right: 0;
     transition: right 0.3s ease-in-out;
-
 }
 
-
-nav{
-    background: #142359 ;
+nav {
+    background: #142359;
     width: 20vw;
     height: 50vw;
     padding: 30px 70px;
-    position:absolute;
+    position: absolute;
     right: -100vw;
     top: 4em;
     transition: right 0.3s ease-in-out;
 }
 
-.ham-ul{
+.ham-ul {
 
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.ham{
+.ham {
     margin-bottom: 10px;
 }
 
-a{
+a {
     text-decoration: none;
-     color: white;
-     font-size: 20px;
-     font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+@media (max-width: 500px) {
+    main .container {
+        grid-template-columns: 1fr 1fr;
+    }
+
 }
