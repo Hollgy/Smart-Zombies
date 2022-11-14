@@ -1,6 +1,3 @@
-:root {
-    --icon-padding: 2em;
-}
 
 @viewport {
     width: device-width;
@@ -34,14 +31,6 @@ header {
 .logo-bild {
     margin-top: 0.5em;
 }
-
-.shop-bag {
-    height: var(--icon-padding);
-    width: var(--icon-padding);
-    margin-left: 1em;
-}
-
-
 
 main {
     height: 82vh;
