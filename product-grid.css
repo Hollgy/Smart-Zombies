@@ -1,4 +1,3 @@
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,12 +6,12 @@
 
 header {
     height: 8vh;
-    width:100%;
+    width: 100%;
     background-color: #142359;
 }
 
 body {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -162,31 +161,35 @@ button {
         width: 50em;
         /* height: 82%; */
     }
-    a{
+
+    .fancy {
         background: #142359;
         position: relative;
     }
-    a::after{
-        content:"";
-        position:absolute ;
+
+    .fancy::after {
+        content: "";
+        position: absolute;
         left: 0;
         bottom: 0;
         width: 100%;
         height: 2px;
-        background-color:currentColor ;
-        
+        background-color: currentColor;
+
         transform: scaleX(0);
         transform-origin: right;
         transition: transform 250ms ease-in;
     }
-    a:hover::after {
+
+    .fancy:hover::after {
         transform: scaleX(1);
         transform-origin: left;
     }
-    
-    button + .ikon {
+
+    button+.ikon {
         margin-left: 1em;
     }
+
     button::after {
         cursor: pointer;
         fill: green;
@@ -195,13 +198,13 @@ button {
         z-index: 1;
     }
 
-    button-one::after{
+    button-one::after {
         transform: scaleX(0.5);
         transform-origin: left;
 
     }
 
-    button-one:hover::after{
+    button-one:hover::after {
         transform: scaleX(1);
     }
 
