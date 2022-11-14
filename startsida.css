@@ -6,7 +6,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    
 
 }
 
@@ -49,8 +49,7 @@ main {
 }
 
 img.gif {
-    width: 20em;
-    margin-bottom: 1em;
+    width: 12em;
 }
 
 
@@ -83,32 +82,39 @@ main{
 
 
 /* Här börjar hälsodata */
-.content{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-     align-items: center 
-}
 
 .health-list {}
 
+/* .content{
+    display: flex;
+
+} */
+
+.gif-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .health {
     position: relative;
-    top: 6em;
     width: 15em;
     height: 1em;
     border-radius: 7px;
     border: solid #142359;
     background-color: #142359;
-    margin: 1em;
+    margin: 6px;
     padding: 1em;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .samlade-data {
-    position: relative;
-    bottom: 10em;    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+     align-items: center;
+     margin-bottom: 3em;
 }
 
 .första-health {
@@ -146,6 +152,35 @@ p.stat-info{
     width: 400px;
     
 }
+
+.beställ-klocka{
+    border-radius: 7px;
+    border: solid #142359;
+    background-color: #142359;
+    margin: 1em;
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1em;
+    
+  
+    
+}   
+
+.beställ-text{
+    /* margin-left: 3.5em; */
+    font-size: 20px;
+
+    
+}
+
+a{
+    text-decoration:none ;
+}
+
+
+
+
 
 /* Här slutar hälsodata */
 
@@ -199,13 +234,18 @@ p.stat-info{
 
 
 nav {  
-    background: #142359;     
-    width: auto;          
-    padding: 30px 80px;
-         position: absolute;     
-         right: -100vw;     
-         top: 3.8em;     
-         transition: right 0.3s ease-in-out; }
+background: #142359;     
+width: auto;          
+padding: 30px 80px;
+position: absolute;     
+right: -100vw;     
+top: 3.8em;     
+transition: right 0.3s ease-in-out; 
+z-index: 1;
+        
+        
+}
+         
 
 .ham-ul{
 
@@ -225,3 +265,4 @@ nav {
      font-size: 24px;
      font-family: 'Quicksand', sans-serif;
 }
+

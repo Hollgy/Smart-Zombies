@@ -32,6 +32,14 @@ header {
     margin-top: 0.5em;
 }
 
+.shop-bag {
+    height: 2.5em;
+    width: 2.5em;
+    margin-left: 1em;
+}
+
+
+
 main {
     height: 82vh;
 }
@@ -80,36 +88,39 @@ h2{
 .profil-omoss{
     position: relative;
     top: 1em;
+    padding-bottom: 1.5em;
     display: flex;
     margin-left: auto;
     margin-right: auto;
     text-align: start;
     width: 245px;
     inline-size: 250px;
-    
+    font-size: 18px;
 }
 
 .omoss-img{
 margin-right: 1em;
 margin-bottom: 2em;
+width: 4em;
+height: 4em;
     
 }
 
-img.loggan-omoss{
-    margin-top: 1em;
+.loggan-omoss{
     margin-left: auto;
     margin-right: auto;
-    width: 7em;
-    height: 7em
-    
+    width: 5em;
+    height: 5em;
 }
+
 
 h4{
     width: 300px;
-    margin-top: 1em;
+    margin-top: 2em;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    font-size: 16px;
 }
 .hamburger {
     position: relative ;
@@ -167,7 +178,11 @@ nav {
          position: absolute;     
          right: -100vw;     
          top: 3.8em;     
-         transition: right 0.3s ease-in-out; }
+         transition: right 0.3s ease-in-out;
+        z-index: 1;
+        
+        }
+         
 
 .ham-ul{
 
