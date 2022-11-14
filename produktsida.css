@@ -58,24 +58,31 @@ main {
 
 .imgbox {
     display: flex;
-    margin-top:6em;
-    flex-direction: column;
+    justify-content: start;
     align-items: center;
+    margin-top:1em;
+    flex-direction: column;
 }
 
-.prod-botrow {
-    display: flex;
-    flex-direction: row;
-    justify-content: ;
-
+.prod-img{
+    
+    font-size: 20px;
 }
 
-.ikoner{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-
+.prod.namn{
+    
 }
+h1{
+    text-align: center;
+}
+
+.prod-p{
+    text-align: center;
+    margin-top: 0.2em;
+    width: 300px;
+    font-size: 24px;
+}
+
 
 footer {
     background-color: #142359;

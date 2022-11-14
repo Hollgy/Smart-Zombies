@@ -34,8 +34,8 @@ header {
 }
 
 .shop-bag {
-    height: 2em;
-    width: 2em;
+    height: 2.5em;
+    width: 2.5em;
     margin-left: 1em;
 }
 
@@ -113,8 +113,8 @@ header {
 .varukorg-button-till-betalning {
     display: flex;
     justify-content: center;
-    margin-top: 5vh;
-    margin-bottom: 7vh;
+    margin-top: 10vh;
+    margin-bottom: 20vh;
 }
 
 
