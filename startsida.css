@@ -205,7 +205,7 @@ nav{
     padding: 30px 70px;
     position:absolute;
     right: -100vw;
-    top: 4em;
+    top: 3.9em;
     transition: right 0.3s ease-in-out;
 }
 
