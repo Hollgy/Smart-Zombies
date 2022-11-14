@@ -2,10 +2,6 @@
     --icon-padding: 2em;
 }
 
-@viewport {
-    width: device-width;
-    zoom: 1.0;
-}
 
 * {
     margin: 0;
@@ -14,8 +10,8 @@
 
 body {
     position: fixed;
-  overflow-x: hidden;
-    width: 100%; 
+    overflow-x: hidden;
+    width: 100%;
 }
 
 header {
@@ -60,23 +56,22 @@ main {
     display: flex;
     justify-content: start;
     align-items: center;
-    margin-top:1em;
+    margin-top: 1em;
     flex-direction: column;
 }
 
-.prod-img{
+.prod-img {
     
     font-size: 20px;
 }
 
-.prod.namn{
-    
-}
-h1{
+.prod.namn {}
+
+h1 {
     text-align: center;
 }
 
-.prod-p{
+.prod-p {
     text-align: center;
     margin-top: 0.2em;
     width: 300px;
@@ -103,7 +98,7 @@ footer {
     gap: 0.5em;
 }
 
-.container-omoss{
+.container-omoss {
     display: flex;
     margin: 0;
     flex-direction: column;
@@ -111,12 +106,13 @@ footer {
     
 }
 
-h2{
+h2 {
     text-align: center;
     margin: 0;
     padding-top: 0.5em;
 }
-.profil-omoss{
+
+.profil-omoss {
     position: relative;
     left: 2em;
     top: 1em;
@@ -127,22 +123,21 @@ h2{
     
 }
 
-.omoss-img{
-margin-right: 1em;
-margin-bottom: 2em;
-    
+.omoss-img {
+    margin-right: 1em;
+    margin-bottom: 2em;
+
 }
 
-img.loggan-omoss{
+img.loggan-omoss {
     margin-top: 1em;
     margin-left: auto;
     margin-right: auto;
     width: 7em;
     height: 7em
-    
 }
 
-h4{
+h4 {
     width: 300px;
     margin-top: 1em;
     margin-left: auto;
@@ -151,7 +146,7 @@ h4{
 }
 
 .hamburger {
-    position: relative ;
+    position: relative;
     right: 3em;
     margin-right: 10px;
     margin-left: 0;
@@ -167,62 +162,103 @@ h4{
     background: white;
     display: block;
     margin: 5px;
-        
+    
     
 }
 
-.trigger:checked ~.hamburger span:first-child{
+.trigger:checked~.hamburger span:first-child {
     transform: rotate(45deg);
     top: 8px;
 }
 
 
-.trigger:checked ~.hamburger span:last-child{
+.trigger:checked~.hamburger span:last-child {
     transform: rotate(-45deg);
     top: -8px;
 }
 
 
-.trigger:checked ~.hamburger span:nth-child(2){
+.trigger:checked~.hamburger span:nth-child(2) {
     opacity: 0;
 }
 
-.trigger{
+.trigger {
     display: none;
-  
+    
 }
 
-.trigger:checked ~ nav{
+.trigger:checked~nav {
     right: 0;
     transition: right 0.3s ease-in-out;
-
+    
 }
 
 
-nav {  
-    background: #142359;     
-    width: auto;          
+nav {
+    background: #142359;
+    width: auto;
     padding: 30px 80px;
-         position: absolute;     
-         right: -100vw;     
-         top: 3.8em;     
-         transition: right 0.3s ease-in-out; }
+    position: absolute;
+    right: -100vw;
+    top: 3.8em;
+    transition: right 0.3s ease-in-out;
+}
 
-.ham-ul{
-
+.ham-ul {
+    
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.ham{
+.ham {
     margin-bottom: 10px;
     padding-bottom: 2.5em;
 }
 
-.meny-a{
+.meny-a {
     text-decoration: none;
-     color: white;
-     font-size: 24px;
-     font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
 }
+
+
+
+
+@media (min-width: 730px) {
+    main .container {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 50em;
+        /* height: 82%; */
+    }
+    .ham a{
+        background: #142359;
+        position: relative;
+    }
+    .ham a::after{
+        content:"";
+        position:absolute ;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 2px;
+        background-color:currentColor ;
+        
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 250ms ease-in;
+    }
+    .ham a:hover::after {
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+    
+}
+
+
+
+
+
+
+
