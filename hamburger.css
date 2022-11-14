@@ -113,16 +113,14 @@ footer {
 }
 
 
-nav{
-    background: #142359 ;
-    width: 20vw;
-    height: 50vw;
-    padding: 30px 70px;
-    position:absolute;
-    right: -100vw;
-    top: 4em;
-    transition: right 0.3s ease-in-out;
-}
+nav {  
+    background: #142359;     
+    width: auto;          
+    padding: 30px 80px;
+         position: absolute;     
+         right: -100vw;     
+         top: 3.8em;     
+         transition: right 0.3s ease-in-out; }
 
 .ham-ul{
 
@@ -133,11 +131,12 @@ nav{
 
 .ham{
     margin-bottom: 10px;
+    padding-bottom: 2.5em;
 }
 
-a{
+.meny-a{
     text-decoration: none;
      color: white;
-     font-size: 20px;
+     font-size: 24px;
      font-family: 'Quicksand', sans-serif;
 }
