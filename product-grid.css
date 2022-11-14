@@ -149,10 +149,10 @@ nav {
 }
 
 
-@media (min-width: 500px) {
+@media (min-width: 730px) {
     main .container {
         grid-template-columns: 1fr 1fr 1fr;
-        width: auto;
+        width: 50em;
         /* height: 82%; */
     }
 
