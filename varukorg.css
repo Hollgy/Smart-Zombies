@@ -113,8 +113,8 @@ header {
 .varukorg-button-till-betalning {
     display: flex;
     justify-content: center;
-    margin-top: 10vh;
-    margin-bottom: 20vh;
+    margin-top: 5vh;
+    margin-bottom: 6vh;
 }
 
 
@@ -226,4 +226,19 @@ nav {
         margin: auto;
     }
 
+}
+
+@media (min-height:800px) {
+    
+    .varukorg-main {
+        height: 82vh;
+    }
+
+    .varukorg-button-till-betalning {
+        margin-top: 5vh;
+    }
+
+    .varukorg-code {
+        margin-top: 12vh ;
+    }
 }
