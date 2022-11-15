@@ -87,14 +87,30 @@ h1 {
 
 .produktsida-add-to-cart-button {
     margin-top: 2em;
+    border-radius: 7px;
+    border: solid #142359;
+    background-color: #142359;
+    margin: 1em;
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 .produktsida-visa-tillbehör-knapp  {
     margin-top: 0.5em;
+    border-radius: 7px;
+    border: solid #142359;
+    background-color: #142359;
+    margin: 1em;
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 .armband-text {
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 
