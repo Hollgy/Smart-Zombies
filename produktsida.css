@@ -12,6 +12,7 @@ body {
     /* position: fixed; */
     overflow-x: hidden;
     width: 100%;
+    min-height: 100vh;
 }
 
 header {
@@ -103,7 +104,7 @@ h1 {
     border-radius: 7px;
     border: solid #142359;
     background-color: #142359;
-    margin: 1em;
+    margin-bottom: 5em;
     padding: 10px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -136,52 +137,13 @@ footer {
     gap: 0.5em;
 }
 
-.container-omoss {
-    display: flex;
-    margin: 0;
-    flex-direction: column;
-    justify-content: center;
-    
-}
-
 h2 {
     text-align: center;
     margin: 0;
     padding-top: 0.5em;
 }
 
-.profil-omoss {
-    position: relative;
-    left: 2em;
-    top: 1em;
-    display: flex;
-    align-items: flex-start;
-    text-align: center;
-    width: 260px;
-    
-}
 
-.omoss-img {
-    margin-right: 1em;
-    margin-bottom: 2em;
-
-}
-
-img.loggan-omoss {
-    margin-top: 1em;
-    margin-left: auto;
-    margin-right: auto;
-    width: 7em;
-    height: 7em
-}
-
-h4 {
-    width: 300px;
-    margin-top: 1em;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
 
 .hamburger {
     position: relative;
