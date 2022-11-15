@@ -62,7 +62,7 @@ main {
 
 .prod-img {
     
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .prod.namn {}
@@ -75,7 +75,26 @@ h1 {
     text-align: center;
     margin-top: 0.2em;
     width: 300px;
-    font-size: 24px;
+    font-size: 20px;
+}
+
+
+.prod-namn h2 {
+    color: 8B8B8B;
+    margin-bottom: 1em;
+    font-size: 18px;
+}
+
+.produktsida-add-to-cart-button {
+    margin-top: 2em;
+}
+
+.produktsida-visa-tillbehör-knapp  {
+    margin-top: 0.5em;
+}
+
+.armband-text {
+    margin-top: 2em;
 }
 
 
