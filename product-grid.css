@@ -5,7 +5,7 @@
 }
 
 header {
-    height: 8vh;
+    min-height: 8vh;
     width: 100%;
     background-color: #142359;
 }
@@ -122,10 +122,8 @@ footer {
 nav {
     background: #142359;
     width: auto;
-    /* height: 40vh; */
     padding: 30px 80px;
     position: absolute;
-    /* right: -100vw; */
     top: 3.8em;
     transition: right 0.3s ease-in-out;
     display: none;
