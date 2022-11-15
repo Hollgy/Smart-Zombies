@@ -11,15 +11,14 @@
 }
 
 body {
-    position: fixed;
-    overflow-x: hidden;
-    width: 100%;
-
+    /* position: fixed; */
+    /* overflow-x: hidden; */
+    /* width: 100%; */
 
 }
 
 header {
-    height: 8vh;
+    min-height: 8vh;
     width: 100vw;
     min-width: 15em;
     background-color: #142359;
@@ -57,10 +56,13 @@ footer {
     background-color: #142359;
     color: white;
     width: 100vw;
-    height: 10vh;
+    min-height: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    bottom: 0;
+
 }
 
 .logo_list li {
@@ -73,10 +75,11 @@ footer {
 }
 
 main {
-    display: flex;
+    /* display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center
+    align-items: center */
+   
 }
 
 
@@ -84,21 +87,24 @@ main {
 
 /* Här börjar hälsodata */
 
-.health-list {}
+.content {
+    height: 82vh;
+}
 
-/* .content{
-    display: flex;
+.health-list {
+    
+}
 
-} */
 
 .gif-div {
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 .health {
-    position: relative;
+    /* position: relative; */
     width: 15em;
     height: 1em;
     border-radius: 7px;
@@ -137,14 +143,14 @@ main {
 }
 
 div.health {
-    position: relative;
+    /* position: relative; */
 
 
 }
 
 .länkar-ikoner {
     color: white;
-    position: absolute;
+    /* position: absolute; */
     text-decoration: none;
 
 }
@@ -271,11 +277,11 @@ nav {
 
 
 @media (min-width: 730px) {
-    main .container {
+    /* main .container {
         grid-template-columns: 1fr 1fr 1fr;
         width: 50em;
         /* height: 82%; */
-    }
+    } */
     .fancy{
         background: #142359;
         position: relative;
@@ -297,5 +303,11 @@ nav {
         transform: scaleX(1);
         transform-origin: left;
     }
+
+    @media (max-height:712px) {
+
+        .content {
+            overflow: scroll;
+        }
+    }
     
-}

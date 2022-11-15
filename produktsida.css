@@ -9,13 +9,13 @@
 }
 
 body {
-    position: fixed;
+    /* position: fixed; */
     overflow-x: hidden;
     width: 100%;
 }
 
 header {
-    height: 8vh;
+    min-height: 8vh;
     width: 100vw;
     min-width: 15em;
     background-color: #142359;
@@ -50,6 +50,7 @@ main {
     height: 82vh;
     display: grid;
     grid-template-columns: 1;
+    overflow: scroll;
 }
 
 .imgbox {
@@ -122,6 +123,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    bottom: 0;
 }
 
 .logo_list li {
@@ -225,6 +228,7 @@ h4 {
 .trigger:checked~nav {
     right: 0;
     transition: right 0.3s ease-in-out;
+    display: block;
     
 }
 
@@ -234,7 +238,7 @@ nav {
     width: auto;
     padding: 30px 80px;
     position: absolute;
-    right: -100vw;
+    display: none;
     top: 3.8em;
     transition: right 0.3s ease-in-out;
 }
