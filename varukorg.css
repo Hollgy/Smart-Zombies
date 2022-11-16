@@ -44,8 +44,8 @@ header {
 }
 
 .ham-meny {
-    height: 2em;
-    width: 2em;
+    height: 2.5em;
+    width: 2.5em;
     margin-right: 1em;
 }
 
@@ -55,6 +55,8 @@ header {
 .varukorg-skylt {
     display: flex;
     justify-content: center;
+    margin-left: 1em;
+
 }
 
 .varukorg-first-product {

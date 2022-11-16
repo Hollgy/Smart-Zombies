@@ -37,14 +37,14 @@ header {
     transform: scale(1.3);
 }
 .shop-bag {
-    height: var(--icon-padding);
-    width: var(--icon-padding);
+    height: 2.5em;
+    width: 2.5em;
     margin-left: 1em;
 }
 
 .ham-meny {
-    height: 2em;
-    width: 2em;
+    height: 2.5em;
+    width: 2.5em;
     margin-right: 1em;
 }
 
