@@ -41,7 +41,7 @@ body {
 
 main {
     height: 82vh;
-    overflow: scroll;
+    overflow:scroll;
 
 }
 
@@ -86,17 +86,16 @@ footer {
 }
 
 h2 {
-    padding-top: 1em;
     text-align: center;
-    margin: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .profil-omoss {
     display: flex;
     justify-content: center;
-    padding-bottom: 1.5em;
     font-size: 18px;
-    width: 250px;
+    width: 300px;
 }
 
 
@@ -130,7 +129,7 @@ h4 {
     display: flex;
     flex-direction: column;
     margin: auto;
-    margin-bottom: 5%;
+    margin-bottom: 1em;
     text-align: center;
 }
 
