@@ -283,7 +283,7 @@ nav {
         grid-template-columns: 1fr 1fr 1fr;
         width: 50em;
         /* height: 82%; */
-    } */
+    
     .fancy{
         background: #142359;
         position: relative;
@@ -313,3 +313,4 @@ nav {
         }
     }
     
+}
