@@ -29,9 +29,13 @@ header {
 }
 
 .logo-bild {
-    margin-top: 0.5em;
+    margin-top: 0.8em;
+
 }
 
+.logo-bild:hover{
+    transform: scale(1.3);
+}
 .shop-bag {
     height: var(--icon-padding);
     width: var(--icon-padding);
