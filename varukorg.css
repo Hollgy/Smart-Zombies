@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    height: 8vh;
+    min-height: 8vh;
     width: 100vw;
     min-width: 15em;
     background-color: #142359;
@@ -29,8 +29,12 @@ header {
 }
 
 .logo-bild {
-    margin-top: 0.5em;
+    margin-top: 0.8em;
 
+}
+
+.logo-bild:hover{
+    transform: scale(1.3);
 }
 
 .shop-bag {
@@ -44,6 +48,7 @@ header {
     width: 2em;
     margin-right: 1em;
 }
+
 
 
 
@@ -88,12 +93,12 @@ header {
 }
 
 .varukorg-summa-lista {
-    font-size: 12px;
+    font-size: 16px;
     margin-top: 0.5em;
 }
 
 .varukorg-summa-total {
-    font-size: 12px;
+    font-size: 16px;
     margin-top: 4em;
 }
 
@@ -103,8 +108,15 @@ header {
     margin-top: 5em;
 }
 
+.kort{
+    position: relative;
+    bottom: 3px;
+    margin-right: 0.6em;
+    
+}
+
 .varukorg-line-short {
-    width: 150px;
+    width: 180px;
     margin: auto;
     background-color: #142359;
     height: 1px;
@@ -117,6 +129,10 @@ header {
     margin-bottom: 6vh;
 }
 
+.varukorg-main{
+    height: 82vh;
+    overflow-y: scroll;
+}
 
 footer {
     background-color: #142359;
@@ -126,7 +142,9 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    position: fixed;
+    bottom: 0;
+   
 }
 
 .logo_list li {

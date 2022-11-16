@@ -56,6 +56,15 @@ main .container {
     height: 85%;
 }
 
+
+img.ikon{
+    cursor: pointer;
+}
+
+img.ikon:hover{
+    transform: scale(1.5);
+}
+
 /* avgränsing footer */
 footer {
     background-color: #142359;
